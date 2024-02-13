@@ -32,7 +32,8 @@ var palin = function(ar){
             continue;
         }
     }
-    console.log(pal);
+    //console.log(pal);
+    return pal;
 }
-palin(exampleAr);
-// console.log("The Palindromes in the given array :", palin(exampleAr));
+//palin(exampleAr);
+console.log("The Palindromes in the given array :", palin(exampleAr));
